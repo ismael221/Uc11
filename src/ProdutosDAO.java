@@ -90,7 +90,7 @@ public class ProdutosDAO {
            }
         
         }catch(Exception e){
-            System.out.println("Erro ao carregar produtos: "+e.getMessage());
+            System.out.println("Erro ao carregar produtos vendidos: "+e.getMessage());
         }
         return listagem;
     }
